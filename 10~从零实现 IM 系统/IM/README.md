@@ -19,7 +19,6 @@ rtmp {
 
         chunk_size 4000;
 
-
         application hls {  #rtmp推流请求路径
             live on;
             hls on;
